@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "1",
+  "generatorVersion": "1.0.0",
+  "timestamp": "2026-10-23T18:24:49.027Z",
+  "pipelineUrl": "NOT_MEASURED",
+  "commitSha": "cf7000515211adda69dedee2457194059cc10f94",
+  "imageDigest": "NOT_MEASURED",
+  "cloudRunRevision": "NOT_MEASURED",
+  "candidateUrl": "NOT_MEASURED",
+  "witnessSummary": [
+    {
+      "witnessId": "91bf2d51bede57f0",
+      "schemaVersion": "1",
+      "generatorVersion": "1.0.0",
+      "timestamp": "2026-10-23T17:54:35.789Z",
+      "baselineSha": "04d9f72f5ab0cd5f4f7738aefed5d61772a81b5a",
+      "candidateSha": "2749e50a5f67a977a4f1afaa01dead37d3bdee8f",
+      "policyVersion": "1.0.0",
+      "policyHash": "8255faa15a8078e85c6b4727b3c3ef56f1b41d6e41a3a7e7e06b343e893139f4",
+      "fixtureVersion": "1.0.0",
+      "originId": "node_gate",
+      "destinationId": "node_sci_lab",
+      "profileId": "step_free",
+      "activeBarrierIds": [],
+      "baseline": {
+        "connected": true,
+        "profileId": "step_free",
+        "originId": "node_gate",
+        "destinationId": "node_sci_lab",
+        "durationSec": 490,
+        "distanceM": 600,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [
+          "edge_sci_stairs_flight",
+          "edge_sci_stairs_flight"
+        ],
+        "explanation": "The 555m unconstrained shortest route contains stairs (edge_sci_stairs_flight) and was rejected by the Step-free policy. This route adds 1 min (600m total) using accessible paths."
+      },
+      "candidate": {
+        "connected": true,
+        "profileId": "step_free",
+        "originId": "node_gate",
+        "destinationId": "node_sci_lab",
+        "durationSec": 490,
+        "distanceM": 600,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [
+          "edge_sci_stairs_flight",
+          "edge_sci_stairs_flight"
+        ],
+        "explanation": "The 555m unconstrained shortest route contains stairs (edge_sci_stairs_flight) and was rejected by the Step-free policy. This route adds 1 min (600m total) using accessible paths."
+      },
+      "invariantId": "INV-01",
+      "invariantDescription": "No unexplained disconnection: Gate to Science Lab must remain reachable via step-free path (elevator).",
+      "verdict": "PASS",
+      "verdictReason": "Both baseline and candidate are connected for profile 'step_free'. Invariant satisfied.",
+      "evidenceStatus": "MEASURED",
+      "isSyntheticData": true,
+      "dataDisclaimer": "All route and campus data used in RouteWitness demonstrations is synthetic (isSyntheticDemo: true). No real campus geometry, personal mobility data, or navigation history is stored or transmitted."
+    },
+    {
+      "witnessId": "5ef7c9d6d4c09823",
+      "schemaVersion": "1",
+      "generatorVersion": "1.0.0",
+      "timestamp": "2026-10-23T17:54:35.789Z",
+      "baselineSha": "04d9f72f5ab0cd5f4f7738aefed5d61772a81b5a",
+      "candidateSha": "2749e50a5f67a977a4f1afaa01dead37d3bdee8f",
+      "policyVersion": "1.0.0",
+      "policyHash": "8255faa15a8078e85c6b4727b3c3ef56f1b41d6e41a3a7e7e06b343e893139f4",
+      "fixtureVersion": "1.0.0",
+      "originId": "node_gate",
+      "destinationId": "node_sci_lab",
+      "profileId": "fastest",
+      "activeBarrierIds": [],
+      "baseline": {
+        "connected": true,
+        "profileId": "fastest",
+        "originId": "node_gate",
+        "destinationId": "node_sci_lab",
+        "durationSec": 425,
+        "distanceM": 555,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [],
+        "explanation": "Selected route matches the fastest baseline (555m, 7 min) and satisfies all active Fastest / Unconstrained constraints."
+      },
+      "candidate": {
+        "connected": true,
+        "profileId": "fastest",
+        "originId": "node_gate",
+        "destinationId": "node_sci_lab",
+        "durationSec": 425,
+        "distanceM": 555,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [],
+        "explanation": "Selected route matches the fastest baseline (555m, 7 min) and satisfies all active Fastest / Unconstrained constraints."
+      },
+      "invariantId": "INV-01",
+      "invariantDescription": "Fastest pedestrian connectivity from Gate to Science Lab.",
+      "verdict": "PASS",
+      "verdictReason": "Both baseline and candidate are connected for profile 'fastest'. Invariant satisfied.",
+      "evidenceStatus": "MEASURED",
+      "isSyntheticData": true,
+      "dataDisclaimer": "All route and campus data used in RouteWitness demonstrations is synthetic (isSyntheticDemo: true). No real campus geometry, personal mobility data, or navigation history is stored or transmitted."
+    },
+    {
+      "witnessId": "5f37ccfff5ee015e",
+      "schemaVersion": "1",
+      "generatorVersion": "1.0.0",
+      "timestamp": "2026-10-23T17:54:35.789Z",
+      "baselineSha": "04d9f72f5ab0cd5f4f7738aefed5d61772a81b5a",
+      "candidateSha": "2749e50a5f67a977a4f1afaa01dead37d3bdee8f",
+      "policyVersion": "1.0.0",
+      "policyHash": "8255faa15a8078e85c6b4727b3c3ef56f1b41d6e41a3a7e7e06b343e893139f4",
+      "fixtureVersion": "1.0.0",
+      "originId": "node_gate",
+      "destinationId": "node_lib_entrance",
+      "profileId": "step_free",
+      "activeBarrierIds": [],
+      "baseline": {
+        "connected": true,
+        "profileId": "step_free",
+        "originId": "node_gate",
+        "destinationId": "node_lib_entrance",
+        "durationSec": 195,
+        "distanceM": 250,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [
+          "edge_sci_stairs_flight",
+          "edge_sci_stairs_flight"
+        ],
+        "explanation": "Selected route matches the fastest baseline (250m, 3 min) and satisfies all active Step-free / Wheelchair constraints."
+      },
+      "candidate": {
+        "connected": true,
+        "profileId": "step_free",
+        "originId": "node_gate",
+        "destinationId": "node_lib_entrance",
+        "durationSec": 195,
+        "distanceM": 250,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [
+          "edge_sci_stairs_flight",
+          "edge_sci_stairs_flight"
+        ],
+        "explanation": "Selected route matches the fastest baseline (250m, 3 min) and satisfies all active Step-free / Wheelchair constraints."
+      },
+      "invariantId": "INV-01",
+      "invariantDescription": "Step-free access to central Library must be maintained.",
+      "verdict": "PASS",
+      "verdictReason": "Both baseline and candidate are connected for profile 'step_free'. Invariant satisfied.",
+      "evidenceStatus": "MEASURED",
+      "isSyntheticData": true,
+      "dataDisclaimer": "All route and campus data used in RouteWitness demonstrations is synthetic (isSyntheticDemo: true). No real campus geometry, personal mobility data, or navigation history is stored or transmitted."
+    },
+    {
+      "witnessId": "f58779f5dfa5ad11",
+      "schemaVersion": "1",
+      "generatorVersion": "1.0.0",
+      "timestamp": "2026-10-23T17:54:35.789Z",
+      "baselineSha": "04d9f72f5ab0cd5f4f7738aefed5d61772a81b5a",
+      "candidateSha": "2749e50a5f67a977a4f1afaa01dead37d3bdee8f",
+      "policyVersion": "1.0.0",
+      "policyHash": "8255faa15a8078e85c6b4727b3c3ef56f1b41d6e41a3a7e7e06b343e893139f4",
+      "fixtureVersion": "1.0.0",
+      "originId": "node_sci_lab",
+      "destinationId": "node_dining",
+      "profileId": "low_sensory",
+      "activeBarrierIds": [],
+      "baseline": {
+        "connected": true,
+        "profileId": "low_sensory",
+        "originId": "node_sci_lab",
+        "destinationId": "node_dining",
+        "durationSec": 460,
+        "distanceM": 585,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [],
+        "explanation": "This route adds 2 min (585m total) using accessible paths."
+      },
+      "candidate": {
+        "connected": true,
+        "profileId": "low_sensory",
+        "originId": "node_sci_lab",
+        "destinationId": "node_dining",
+        "durationSec": 460,
+        "distanceM": 585,
+        "activeBarrierIds": [],
+        "rejectedEdgeIds": [],
+        "explanation": "This route adds 2 min (585m total) using accessible paths."
+      },
+      "invariantId": "INV-01",
+      "invariantDescription": "Low-sensory route from Science Lab to Dining Hall must remain connected.",
+      "verdict": "PASS",
+      "verdictReason": "Both baseline and candidate are connected for profile 'low_sensory'. Invariant satisfied.",
+      "evidenceStatus": "MEASURED",
+      "isSyntheticData": true,
+      "dataDisclaimer": "All route and campus data used in RouteWitness demonstrations is synthetic (isSyntheticDemo: true). No real campus geometry, personal mobility data, or navigation history is stored or transmitted."
+    }
+  ],
+  "gateResults": [
+    {
+      "gateId": "GATE-01-PROVENANCE",
+      "label": "Origin and License Provenance",
+      "status": "PASS",
+      "evidenceStatus": "MEASURED",
+      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+    },
+    {
+      "gateId": "GATE-02-POLICY",
+      "label": "Protected Policy Integrity",
+      "status": "PASS",
+      "evidenceStatus": "MEASURED",
+      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+    },
+    {
+      "gateId": "GATE-03-INVARIANTS",
+      "label": "Route Invariant Verification",
+      "status": "PASS",
+      "evidenceStatus": "MEASURED",
+      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+    },
+    {
+      "gateId": "GATE-04-SECURITY",
+      "label": "Dependency & Secret Scan",
+      "status": "PASS",
+      "evidenceStatus": "MEASURED",
+      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+    },
+    {
+      "gateId": "GATE-05-ACCESSIBILITY",
+      "label": "Automated Axe & Contrast Audit",
+      "status": "PASS",
+      "evidenceStatus": "MEASURED",
+      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+    }
+  ],
+  "lifecycleEvidence": [
+    {
+      "stage": "plan",
+      "status": "COVERED",
+      "evidenceStatus": "MEASURED",
+      "description": "Duo Impact Manifest",
+      "artifactLinks": [
+        "artifacts/route-witness/impact-manifest.json"
+      ],
+      "jobLinks": []
+    },
+    {
+      "stage": "create",
+      "status": "COVERED",
+      "evidenceStatus": "MEASURED",
+      "description": "Automated corrective MR capability",
+      "artifactLinks": [],
+      "jobLinks": []
+    },
+    {
+      "stage": "verify",
+      "status": "COVERED",
+      "evidenceStatus": "MEASURED",
+      "description": "Vitest + Playwright + Axe",
+      "artifactLinks": [
+        "artifacts/route-witness/witnesses.json"
+      ],
+      "jobLinks": []
+    },
+    {
+      "stage": "package",
+      "status": "PARTIAL",
+      "evidenceStatus": "NOT_MEASURED",
+      "description": "OCI Container image build",
+      "artifactLinks": [],
+      "jobLinks": []
+    },
+    {
+      "stage": "secure",
+      "status": "COVERED",
+      "evidenceStatus": "MEASURED",
+      "description": "Secret scan + Dependency audit",
+      "artifactLinks": [
+        "docs/security-audit.json"
+      ],
+      "jobLinks": []
+    },
+    {
+      "stage": "release",
+      "status": "NOT_COVERED",
+      "evidenceStatus": "NOT_MEASURED",
+      "description": "Cloud Run tagged candidate revision",
+      "artifactLinks": [],
+      "jobLinks": []
+    },
+    {
+      "stage": "configure",
+      "status": "COVERED",
+      "evidenceStatus": "MEASURED",
+      "description": "Target branch protected policy",
+      "artifactLinks": [
+        "policy/route-invariants.json"
+      ],
+      "jobLinks": []
+    },
+    {
+      "stage": "monitor",
+      "status": "NOT_COVERED",
+      "evidenceStatus": "NOT_MEASURED",
+      "description": "Candidate HTTP health & witness replay",
+      "artifactLinks": [],
+      "jobLinks": []
+    },
+    {
+      "stage": "govern",
+      "status": "COVERED",
+      "evidenceStatus": "MEASURED",
+      "description": "CODEOWNERS + Supervised Human Approval",
+      "artifactLinks": [
+        "CODEOWNERS"
+      ],
+      "jobLinks": []
+    }
+  ],
+  "isSyntheticData": true,
+  "dataDisclaimer": "All route and campus data used in RouteWitness demonstrations is synthetic (isSyntheticDemo: true). No real campus geometry, personal mobility data, or navigation history is stored or transmitted.",
+  "nonCertificationDisclosure": "This receipt is an integrity-verified evidence bundle. It is not a legal, safety, or accessibility certification.",
+  "checksumSha256": "af8583220177b12e39cb55092d39f1b39adc602f60f05fcc99121da5887a3ead"
+}
