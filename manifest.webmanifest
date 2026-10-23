@@ -1,6 +1,6 @@
 {
-  "name": "AccessGraph — Constraint-Aware Campus Navigation",
-  "short_name": "AccessGraph",
+  "name": "RouteWitness — Deterministic Accessibility Release Twin",
+  "short_name": "RouteWitness",
   "description": "Constraint-aware campus navigation that turns inaccessible routes into actionable repair priorities.",
   "start_url": "./",
   "display": "standalone",
