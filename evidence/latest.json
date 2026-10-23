@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1",
   "generatorVersion": "1.0.0",
-  "timestamp": "2026-10-23T18:24:49.027Z",
+  "timestamp": "2026-10-23T19:04:48.718Z",
   "pipelineUrl": "NOT_MEASURED",
-  "commitSha": "cf7000515211adda69dedee2457194059cc10f94",
+  "commitSha": "20a6ba5924e26f64fb495c3a4b0779ad44a65fa0",
   "imageDigest": "NOT_MEASURED",
   "cloudRunRevision": "NOT_MEASURED",
   "candidateUrl": "NOT_MEASURED",
@@ -203,35 +203,35 @@
       "label": "Origin and License Provenance",
       "status": "PASS",
       "evidenceStatus": "MEASURED",
-      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+      "commitSha": "20a6ba5924e26f64fb495c3a4b0779ad44a65fa0"
     },
     {
       "gateId": "GATE-02-POLICY",
       "label": "Protected Policy Integrity",
       "status": "PASS",
       "evidenceStatus": "MEASURED",
-      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+      "commitSha": "20a6ba5924e26f64fb495c3a4b0779ad44a65fa0"
     },
     {
       "gateId": "GATE-03-INVARIANTS",
       "label": "Route Invariant Verification",
       "status": "PASS",
       "evidenceStatus": "MEASURED",
-      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+      "commitSha": "20a6ba5924e26f64fb495c3a4b0779ad44a65fa0"
     },
     {
       "gateId": "GATE-04-SECURITY",
       "label": "Dependency & Secret Scan",
       "status": "PASS",
       "evidenceStatus": "MEASURED",
-      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+      "commitSha": "20a6ba5924e26f64fb495c3a4b0779ad44a65fa0"
     },
     {
       "gateId": "GATE-05-ACCESSIBILITY",
       "label": "Automated Axe & Contrast Audit",
       "status": "PASS",
       "evidenceStatus": "MEASURED",
-      "commitSha": "cf7000515211adda69dedee2457194059cc10f94"
+      "commitSha": "20a6ba5924e26f64fb495c3a4b0779ad44a65fa0"
     }
   ],
   "lifecycleEvidence": [
@@ -321,5 +321,5 @@
   "isSyntheticData": true,
   "dataDisclaimer": "All route and campus data used in RouteWitness demonstrations is synthetic (isSyntheticDemo: true). No real campus geometry, personal mobility data, or navigation history is stored or transmitted.",
   "nonCertificationDisclosure": "This receipt is an integrity-verified evidence bundle. It is not a legal, safety, or accessibility certification.",
-  "checksumSha256": "af8583220177b12e39cb55092d39f1b39adc602f60f05fcc99121da5887a3ead"
+  "checksumSha256": "7a2f23a3298d0c8dd80a502ece3cad9f5a7768f3ebabb0571a3ca33228da7aaf"
 }
